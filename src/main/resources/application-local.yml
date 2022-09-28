@@ -1,5 +1,0 @@
-# File should NOT be tracked in git. replace client-id with your api client id, then run using
-# "MICRONAUT_ENVIRONMENTS=local ./gradlew run"
-backends:
-  mal:
-    client-id: "client-id"
