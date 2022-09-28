@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: malRandomizer
+
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+backends:
+  mal:
+    client-id: "passed in at runtime"
+    base-url: "https://api.myanimelist.net/v2"
+    user-list: "/users/{user}/animelist"
