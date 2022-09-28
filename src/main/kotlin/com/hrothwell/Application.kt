@@ -6,10 +6,9 @@ object Application{
 	@JvmStatic
 	fun main(args: Array<String>) {
 		Micronaut
-			.build(*args)
+			.build()
 			.packages("com.hrothwell")
 			.mainClass(Application.javaClass)
 			.start()
 	}
 }
-
