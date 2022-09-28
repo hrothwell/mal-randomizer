@@ -15,7 +15,7 @@ class MALService(
   suspend fun getUserList(user: String): MALUserListResponse {
     return malClient.getList(user)
   }
-
+  
   suspend fun getRandomAnime(user: String, listStatus: ListStatus): Data {
     val anime = malClient.getList(user, listStatus.malValue)
     return anime.data.randomOrNull() ?: defaultData

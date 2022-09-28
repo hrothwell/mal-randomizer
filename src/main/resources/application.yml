@@ -9,6 +9,6 @@ netty:
 
 backends:
   mal:
-    client-id: "passed in at runtime"
+    client-id: "passed in via secret.yml which is not version controlled"
     base-url: "https://api.myanimelist.net/v2"
     user-list: "/users/{user}/animelist"
